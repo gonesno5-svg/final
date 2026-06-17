@@ -586,15 +586,15 @@ html, body {
 .footer-info .slogan { font-size: 1rem; font-weight: bold; color: #000; margin-bottom: 20px; }
 .footer-info .copyright { color: #2b221a; font-weight: bold; margin-top: 15px; }
 
-/* 마우스 따라다니는 이미지 스타일 */
+
 #mouse-follower {
-    position: fixed; /* 화면 기준으로 움직이게 함 */
+    position: fixed;
     top: 0;
     left: 0;
-    width: 7%; /* 원하는 이미지 크기로 조절하세요 */
+    width: 2%; 
     height: auto;
-    pointer-events: none; /* 💡핵심: 클릭을 방해하지 않고 통과시키게 함 */
-    z-index: 9999; /* 화면의 가장 맨 위에 보이게 함 */
-    transform: translate(-40%, -70%); /* 마우스 포인터 정중앙에 이미지가 오도록 맞춤 */
-    transition: left 0.03s ease, top 0.03s ease; /* 약간의 부드러운 꼬리물기 효과 (원치 않으면 삭제) */
+    pointer-events: none; 
+    z-index: 9999; 
+    transform: translate(-40%, -70%); 
+    transition: left 0.03s ease, top 0.03s ease; 
 }
